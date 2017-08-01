@@ -128,7 +128,7 @@ public void CP_OnChatMessagePost(int author, ArrayList recipients, const char[] 
 	}
 }
 
-public bool ProcessSolution(client, int number)
+public bool ProcessSolution(int client, int number)
 {
 	if(questionResult == number)
 	{
